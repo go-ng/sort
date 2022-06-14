@@ -1,0 +1,360 @@
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	25211180	         4.599 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1843936	        67.80 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   38785	      2931 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2132	     57629 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     148	    764569 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9373930 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3542150	        31.90 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  707535	       172.7 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   35113	      3507 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1881	     62980 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     140	    846557 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      10	  10182975 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.098s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	25306717	         4.743 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1932667	        64.38 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   39866	      3057 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2103	     57338 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     148	    763211 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9385573 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3713470	        31.59 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  657574	       171.2 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   36177	      3324 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1968	     61228 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     150	    787182 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10115427 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.945s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	26639038	         4.386 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 2001812	        58.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   39764	      3003 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2049	     57241 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     145	    758152 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9802673 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3630768	        32.44 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  656283	       168.9 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   34411	      3382 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1950	     60250 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     145	    828806 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      10	  10095972 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.134s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	26235580	         4.451 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 2012028	        59.67 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   38588	      2964 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2089	     56585 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     142	    762874 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9527079 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3798169	        31.64 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  612634	       174.0 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   36030	      3403 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1934	     60049 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     148	    787816 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10159006 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.894s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	24496564	         4.489 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1985030	        59.82 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   41103	      2971 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2113	     56974 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     150	    751306 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	  11491611 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3697123	        31.94 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  609138	       176.7 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   34170	      3557 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1906	     60622 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     147	    849354 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      10	  10816627 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.880s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	25797247	         4.679 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1881104	        60.41 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   39780	      2994 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2108	     57753 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     142	    770791 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9427826 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3862201	        31.65 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  612177	       168.9 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   34312	      3316 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1993	     59413 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     142	    806147 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10516756 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.904s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	26562217	         4.586 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1895048	        58.96 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   39159	      2946 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2166	     59566 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     148	    751418 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9567957 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3641438	        31.63 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  589113	       172.6 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   35263	      3441 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1888	     66595 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     147	    793659 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10234035 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.915s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	26158550	         4.680 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 1969260	        58.85 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   39464	      2928 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2079	     56721 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     152	    764210 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9469326 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3646740	        32.60 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  607977	       171.6 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   35936	      3349 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    2028	     59279 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     150	    804916 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10666019 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.908s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	27295668	         5.007 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 2081137	        62.48 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   38583	      3093 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2058	     58409 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     150	    778755 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	  10047903 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3587954	        31.72 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  673424	       171.8 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   34497	      3438 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1944	     61092 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     147	    797265 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      12	  10011628 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.226s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSliceGenerics/1-16  	26685939	         4.542 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10-16 	 2022570	        60.01 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100-16         	   40190	      2950 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/1000-16        	    2098	     57939 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/10000-16       	     151	    753040 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceGenerics/100000-16      	      12	   9374960 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSlice/1-16                	 3682365	        31.38 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSlice/10-16               	  621694	       171.4 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100-16              	   36482	      3600 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/1000-16             	    1940	     59968 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/10000-16            	     146	    786536 ns/op	      56 B/op	       2 allocs/op
+BenchmarkStdSlice/100000-16           	      10	  10407540 ns/op	      56 B/op	       2 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.013s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28728979	         4.244 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1710867	        72.91 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   39303	      3005 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2084	     58566 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     156	    760392 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9407271 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4774383	        24.13 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  753488	       139.7 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   35668	      3382 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1982	     60263 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     147	    819560 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10489903 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.939s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28731001	         4.166 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1716440	        70.94 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   40250	      3001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2079	     71854 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     152	    794019 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      13	   9517782 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4861713	        23.93 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  891187	       138.9 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   34809	      3371 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1958	     61207 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     139	    855212 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10578174 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.201s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	26698971	         4.289 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1545535	        75.22 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   38384	      3194 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2127	     56447 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     150	    790984 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9237564 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4524823	        24.00 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  777675	       139.3 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   34610	      3504 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1888	     62960 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     135	    813266 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      12	  10727661 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.934s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	26959464	         4.540 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1778352	        72.19 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   38740	      2990 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2209	     54727 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     158	    751241 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9079417 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4840275	        25.80 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  697684	       149.6 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   35072	      3502 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1908	     60493 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     142	    805045 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10765298 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	2.910s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	27521527	         4.174 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1686880	        69.89 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   38754	      3002 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2101	     54416 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     160	    747335 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	  10060645 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4915555	        23.99 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  864290	       147.2 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   35046	      3346 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1868	     61439 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     147	    830005 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10245078 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.092s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28490862	         4.204 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1605146	        67.97 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   41098	      2946 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2138	     55899 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     156	    766385 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9088446 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4924082	        23.55 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  732448	       143.9 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   33811	      3621 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1876	     62902 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     144	    814651 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10515455 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.274s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28886413	         4.252 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1552687	        69.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   39021	      3018 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2101	     58255 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     154	    748126 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9606944 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4776630	        23.87 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  779950	       138.5 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   34909	      3356 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1920	     62022 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     145	    834186 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10477068 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.063s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28306032	         4.379 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1678848	        67.73 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   41062	      2951 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2198	     55780 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     152	    762915 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9230355 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4963111	        24.20 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  813606	       142.8 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   33849	      3797 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1869	     73260 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     139	    863543 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10705134 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.165s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	28533532	         4.800 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1664774	        77.68 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   38953	      3129 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    1928	     56829 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     153	    809852 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      13	   9183587 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4663108	        23.74 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  817304	       136.0 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   34224	      3342 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    2026	     63111 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     145	    885788 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10421458 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.041s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkSortGenerics/1-16  	27858747	         4.183 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10-16 	 1728620	        68.93 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100-16         	   40142	      3050 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/1000-16        	    2084	     62676 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/10000-16       	     159	    752958 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSortGenerics/100000-16      	      12	   9457694 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStdSort/1-16                	 4793600	        25.44 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10-16               	  849117	       136.3 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100-16              	   35204	      3295 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/1000-16             	    1957	     61884 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/10000-16            	     142	    809235 ns/op	      24 B/op	       1 allocs/op
+BenchmarkStdSort/100000-16           	      10	  10300768 ns/op	      24 B/op	       1 allocs/op
+PASS
+ok  	github.com/go-ng/sort	3.091s
