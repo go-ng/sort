@@ -1,4 +1,4 @@
-// This code is a modified version of the file sort/slice.go
+// This code is a modified version of the file sort/sort.go
 // file from Go sorce code with license header:
 //
 // > Copyright 2017 The Go Authors. All rights reserved.
@@ -14,6 +14,8 @@
 //                                             -- Dmitrii Okunev
 
 package sort
+
+// START OF COPIED AND MODIFIED CODE //
 
 // insertionSort_sort sorts s[a:b] using insertion sort.
 func insertionSort_sort[E any, S Interface[E]](s S, a, b int) {
@@ -209,3 +211,5 @@ func Sort[E any, S Interface[E]](s S) {
 	n := len(s)
 	quickSort_sort(s, 0, n, maxDepth(n))
 }
+
+// END OF COPIED AND MODIFIED CODE //

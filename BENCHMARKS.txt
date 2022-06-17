@@ -358,3 +358,463 @@ BenchmarkStdSort/10000-16            	     142	    809235 ns/op	      24 B/op	  
 BenchmarkStdSort/100000-16           	      10	  10300768 ns/op	      24 B/op	       1 allocs/op
 PASS
 ok  	github.com/go-ng/sort	3.091s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	29857801	         3.956 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	49804268	         2.391 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30616962	         3.883 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	52133634	         2.300 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	16124095	         7.557 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34153364	         3.409 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15362018	         7.724 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	30349251	         4.035 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12992752	         9.554 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23754050	         4.991 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10324515	        11.73 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	18502454	         5.751 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7302085	        16.22 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17561161	         6.932 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6202156	        18.76 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15879806	         7.419 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 5778867	        19.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14924768	         8.299 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5729587	        24.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	12908264	         9.792 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5140262	        23.40 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9376473	        12.69 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4517394	        34.47 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 4615784	        26.05 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4108489	        28.86 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4324875	        27.36 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 3853106	        35.57 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4047895	        29.11 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3627093	        33.55 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4032891	        30.17 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3399945	        34.81 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 3571477	        31.39 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3135106	        38.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3670449	        32.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3057331	        41.07 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3659834	        32.28 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2913367	        41.58 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3554769	        34.14 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2622236	        45.89 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3472730	        36.03 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.340s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	31039039	         3.856 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50320182	         2.280 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30472753	         3.859 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	49918984	         2.334 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	16056208	         7.261 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	35532561	         3.395 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15051768	         7.433 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	31118305	         4.004 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12608666	         9.562 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	22497108	         5.392 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10095751	        12.08 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	19910238	         5.902 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7315695	        16.44 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17982934	         6.729 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6451374	        18.93 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15066800	         7.420 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6492228	        19.35 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14685931	         8.064 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5602630	        21.43 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	10984983	         9.336 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5086734	        24.05 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 8859266	        13.01 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4546351	        26.73 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 4970338	        23.77 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 3963798	        28.38 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4587240	        26.24 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4018384	        30.66 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4215242	        29.07 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3739576	        32.37 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4045562	        30.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3328142	        38.26 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 3849836	        30.70 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3217902	        39.90 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3707485	        32.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 2904216	        41.22 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3518126	        33.55 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2844798	        42.78 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3572456	        34.69 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2707299	        44.11 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3463922	        35.00 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.175s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	29657082	         4.340 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50306829	         2.329 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30652138	         4.058 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	49870232	         2.395 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15805764	         7.528 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34036411	         3.420 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15608395	         8.039 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	27133426	         4.128 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12218061	         9.396 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23064481	         5.008 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	 9917643	        12.36 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20489773	         5.787 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7451227	        16.27 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	16704489	         6.865 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6294613	        18.86 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15622094	         7.612 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6619852	        18.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	15047652	         8.051 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5877516	        21.19 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13540772	         8.917 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 4939416	        22.96 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 8836426	        15.00 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4688593	        26.85 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5071628	        23.88 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4230745	        28.02 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4517624	        26.09 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4061660	        33.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4320516	        28.14 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3732056	        32.15 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4145582	        29.00 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3341035	        36.21 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 4001026	        30.15 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3312613	        38.00 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3936075	        34.12 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 2841949	        40.28 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3665992	        32.58 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2940258	        41.11 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3610947	        34.06 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2424961	        46.08 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3345740	        35.69 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.116s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	31288466	         3.836 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	51398025	         2.368 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30695529	         3.997 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	49365934	         2.355 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	16342218	         7.587 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34020229	         3.454 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	16176097	         7.986 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	26430727	         3.946 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12589540	         9.684 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23267767	         5.009 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10268847	        11.73 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20959390	         5.704 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7255068	        16.09 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	18361830	         6.677 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6154630	        18.82 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15680889	         7.251 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6055701	        19.19 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14356872	         8.114 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5710641	        20.82 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13336893	         8.856 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5255587	        23.25 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9078919	        12.17 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4626062	        26.36 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5104929	        23.78 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4085284	        35.09 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4639986	        26.10 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4006990	        30.25 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4251114	        28.86 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3536427	        33.94 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4117460	        29.54 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3495362	        34.80 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 4027274	        29.95 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3191478	        43.16 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3878090	        30.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3104383	        39.40 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3746418	        32.08 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2952085	        41.35 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3595852	        34.21 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2788042	        43.73 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3400272	        35.18 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.093s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	31635816	         3.870 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50110953	         2.298 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	31511056	         3.925 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	49782037	         2.414 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15907650	         7.556 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	32621868	         3.446 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15942580	         8.000 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	28401822	         4.204 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	11970063	         9.844 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	22529605	         5.093 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10178133	        12.20 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20277267	         6.400 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7080212	        17.43 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17586774	         6.636 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6398508	        18.84 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	16158314	         7.425 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6407311	        19.23 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14546042	         8.180 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5669221	        21.33 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13390988	         9.026 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5273674	        22.88 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9364240	        11.80 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4807843	        26.44 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5101921	        24.98 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4141453	        29.20 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4312783	        29.57 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 3759985	        31.84 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4122945	        29.71 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3560202	        33.85 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4086675	        30.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 2809950	        39.75 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 3761744	        32.42 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3116139	        37.79 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3791894	        31.40 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3054954	        41.63 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3621255	        32.07 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2772034	        44.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3423596	        35.71 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2681532	        45.67 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3328814	        34.91 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.127s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	30022606	         3.750 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50502201	         2.350 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30814543	         3.864 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	51643111	         2.356 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15954247	         7.376 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34437979	         3.387 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15921546	         7.621 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	30410510	         4.020 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12206160	         9.627 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23610362	         5.160 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	 9879429	        12.11 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20112967	         5.892 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7452766	        16.72 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17463842	         6.631 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6513595	        19.37 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15900319	         7.266 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6487440	        19.01 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14434278	         8.362 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5421290	        21.15 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13338753	         8.816 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5289944	        23.38 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9355110	        13.42 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4825624	        25.18 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5192078	        22.70 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4253947	        28.31 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4662979	        25.64 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4026508	        30.54 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4279495	        27.66 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3726820	        31.86 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4181353	        28.76 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3527019	        34.68 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 4011325	        29.55 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3220014	        36.95 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3823669	        34.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3113440	        41.77 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3575628	        33.54 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2775658	        44.13 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3479658	        34.62 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2641927	        44.67 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3364035	        34.61 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.189s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	30873774	         3.851 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	47964639	         2.364 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	30414696	         4.012 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	50437184	         2.345 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15444495	         8.239 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	32474396	         3.690 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15298554	         7.978 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	29154681	         4.191 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12004765	         9.861 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23160849	         5.272 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	 9534325	        15.03 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	19400335	         6.076 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 6562100	        17.26 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17345725	         7.020 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 5879491	        20.02 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15022375	         7.786 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 5857348	        22.02 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	13411267	         8.988 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5548585	        21.48 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	12825028	         9.274 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 4918866	        23.92 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 8209596	        13.30 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4597651	        25.94 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5121643	        23.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4265196	        31.09 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4661427	        25.81 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 3968793	        30.42 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4190616	        27.63 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3734686	        32.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4153773	        28.75 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3475575	        35.30 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 4070974	        29.93 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3194085	        38.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3794294	        31.67 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3034832	        39.81 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3693174	        32.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2927468	        41.29 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3557295	        33.05 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2787825	        44.84 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3426254	        33.68 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.293s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	27854610	         3.872 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50198346	         2.296 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	25449279	         3.976 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	52002980	         2.323 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	16108372	         7.384 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34506823	         3.345 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15802970	         7.544 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	29731678	         3.904 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12817720	         9.606 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	24510780	         5.021 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10085558	        12.13 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20251335	         5.755 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7426327	        16.08 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17408497	         6.586 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6512144	        22.23 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	16638812	         7.274 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6602654	        19.00 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	15275880	         8.345 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5870342	        20.98 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13087370	         8.729 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5250661	        23.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9071102	        11.58 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4771022	        25.55 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5158778	        22.68 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4411879	        27.58 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4629874	        25.63 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4076188	        29.88 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4229762	        27.56 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3785161	        33.08 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4108770	        29.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3510752	        34.92 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 4041522	        30.01 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3287995	        36.29 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3871461	        30.71 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3138597	        39.46 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3727258	        31.57 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2956821	        40.91 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3537508	        33.27 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2794286	        45.28 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3487436	        34.30 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.049s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	30129034	         4.143 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	52382143	         2.400 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	31922967	         3.885 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	50103547	         2.367 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15813332	         7.619 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	34554309	         3.354 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	16143645	         7.402 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	30453729	         3.883 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	12686155	         9.537 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23258265	         4.956 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	10359070	        11.94 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	20677152	         5.649 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7528694	        16.26 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	18007872	         6.593 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6572041	        19.14 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	16228990	         7.348 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6401899	        18.58 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14932084	         7.832 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5664313	        21.25 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	12672308	         8.863 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 5124621	        22.99 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 8896099	        11.93 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4728063	        25.29 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5177253	        22.76 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4321141	        27.20 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4451580	        25.69 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 4050534	        29.81 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4327026	        27.36 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3744632	        32.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4109808	        29.09 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3427399	        37.00 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 3924596	        29.76 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3278668	        37.14 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3813556	        31.40 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3059618	        39.03 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3706590	        31.82 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2763460	        41.14 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3551122	        33.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2537892	        45.41 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3321862	        34.62 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.057s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/sort
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Benchmark/size-1/Search-16   	30009429	         4.001 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1/SearchOrdered-16         	50428621	         2.293 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/Search-16                	31999546	         3.890 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2/SearchOrdered-16         	51274688	         2.346 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/Search-16                	15631881	         7.769 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4/SearchOrdered-16         	33073267	         3.636 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/Search-16                	15319207	         7.787 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8/SearchOrdered-16         	29354457	         3.935 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/Search-16               	11710141	         9.767 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16/SearchOrdered-16        	23328597	         5.017 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/Search-16               	 9159313	        11.70 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32/SearchOrdered-16        	19638285	         5.812 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/Search-16               	 7074646	        16.12 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-64/SearchOrdered-16        	17601896	         7.511 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/Search-16              	 6026227	        19.50 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-128/SearchOrdered-16       	15836934	         7.626 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/Search-16              	 6334138	        19.32 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-256/SearchOrdered-16       	14435978	         8.236 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/Search-16              	 5644533	        20.90 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-512/SearchOrdered-16       	13490211	        10.88 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/Search-16             	 4589166	        23.35 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-1024/SearchOrdered-16      	 9095037	        12.81 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/Search-16             	 4715446	        26.11 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-2048/SearchOrdered-16      	 5130200	        22.84 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/Search-16             	 4296451	        28.06 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-4096/SearchOrdered-16      	 4606580	        25.92 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/Search-16             	 3982968	        30.45 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-8192/SearchOrdered-16      	 4213723	        28.17 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/Search-16            	 3705055	        32.47 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-16384/SearchOrdered-16     	 4116522	        32.39 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/Search-16            	 3524037	        35.59 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-32768/SearchOrdered-16     	 3932332	        30.21 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/Search-16            	 3278440	        37.16 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-65536/SearchOrdered-16     	 3880886	        31.21 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/Search-16           	 3044472	        39.60 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-131072/SearchOrdered-16    	 3757700	        31.84 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/Search-16           	 2952667	        42.36 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-262144/SearchOrdered-16    	 3607078	        32.82 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/Search-16           	 2765588	        43.68 ns/op	       0 B/op	       0 allocs/op
+Benchmark/size-524288/SearchOrdered-16    	 3462260	        34.69 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/sort	6.088s
